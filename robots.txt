@@ -1,0 +1,14 @@
+# Allow all user agents
+User-agent: *
+
+# Disallow everything except essential public directories
+Disallow: /
+
+# Allow only these directories and files
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /index.html
+
+# Sitemap location (optional but recommended for SEO)
+Sitemap: https://salus.mk/sitemap.xml
