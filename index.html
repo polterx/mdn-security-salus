@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Robert Wilson">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Salus</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+    <!-- Desktop & Mobile Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#timeframes">Timeline of events</a></li>
+            </ul>
+        </div>
+        <div class="navbar-center">
+            <a href="#"><img src="assets/images/logo.png" alt="Logo" class="navbar-logo"></a>
+        </div>
+        <div class="navbar-right">
+            <ul class="nav-links">
+                <li><a href="#results">Results</a></li>
+                <li><a href="#partners">Partners</a></li>
+            </ul>
+        </div>
+        <div class="hamburger-menu">
+            <button id="hamburger-button"><span></span></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu-overlay" class="mobile-menu-overlay">
+        <ul>
+            <li><a href="#hero" class="mobile-menu-link">Home</a></li>
+            <li><a href="#timeframes" class="mobile-menu-link">Timeline of events</a></li>
+            <li><a href="#results" class="mobile-menu-link">Results</a></li>
+            <li><a href="#partners" class="mobile-menu-link">Partners</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section-padding clean-hero-slider">
+      <div class="orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <div class="orbit-wrapper">
+          <div class="orbit-controls">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+          </div>
+          <ul class="orbit-container">
+            <li class="orbit-slide is-active">
+              <figure class="orbit-figure">
+                <img class="orbit-image" src="assets/images/hero-1.jpg" alt="Leadership Image 1">
+                <figcaption class="orbit-caption">
+                  <h3>Objectives</h3>
+                  <p>This project will encourage women to pursue careers in managerial positions in the Private security to already employed women and to newcomers. It will provide leadership and managerial training for women and will create support structures and tailored mentorship programs directly for women. The project will rase awareness regarding the necessity of women leadership in private security introducing innovative and forward thinking training program with tools aiming at long-lasting changes.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" src="assets/images/hero-2.jpg" alt="Leadership Image 2">
+                <figcaption class="orbit-caption">
+                  <h3>Activities</h3>
+                  <p>The project will carry out Analysis of the Gender Gap, Needs and Challenges for Women Access to Leadership and Management in Private Security.
+
+                  It will create: Leadership and Management Training Course for Women; Women Leadership Handbook; Toolbox for Digital Leadership Competences and Technology Mastering and Blueprint for Women Leadership, with best practices to inspire Women Mentoring and Networking. Several public debates will be organized and wider academic and professional presentations.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" src="assets/images/hero-3.jpg" alt="Leadership Image 3">
+                <figcaption class="orbit-caption">
+                  <h3>Results</h3>
+                  <p>The project will provide direct training to women employed as private security professionals and provide them with new skills and competences for leadership, entrepreneurship, communication, psychology, digital competences etc. It will also create mentorship program connecting women in senior managerial positions (mentors) with women who will be mentored for managerial roles. It will rase awareness among all for the benefits of including women to leadership in the companies and in the society.</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">First Slide</span></button>
+          <button data-slide="1"><span class="show-for-sr">Second Slide</span></button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Time Frames Section -->
+    <section id="timeframes" class="section-padding">
+        <h2>Timeline of events</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date top">
+              <p class="timeline-content-date">2023</p>
+            </div>
+            <div class="timeline-icon">
+                <img src="assets/images/logo.png"/>
+<!--               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M9 21h-9v-2h9v2zm6.695-2.88l-3.314-3.13-1.381 1.47 4.699 4.54 8.301-8.441-1.384-1.439-6.921 7zm-6.695-1.144h-9v-2h9v2zm8-3.976h-17v-2h17v2zm7-4h-24v-2h24v2zm0-4h-24v-2h24v2z"/>
+              </svg> -->
+            </div>
+            <div class="timeline-date bottom">
+              <p class="timeline-content-date">2025</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Results Section -->
+    <section id="results" class="section-padding">
+        <h2>Results</h2>
+        <div class="card" data-book="book1">
+            <img class="card-img" src="assets/images/salus-book-1.jpg" alt="Book 1 Cover" />
+            <div class="card-info">
+                <h1 class="card-title">Analysis</h1>
+                <div class="card-stats">
+                    <div class="dropdown-wrapper">
+                        <label for="language-select-book1">Choose Language:</label>
+                        <select id="language-select-book1" class="language-select" data-book="book1">
+                            <option value="EN" selected>English</option>
+                            <option value="MK">Macedonian</option>
+                            <option value="SL">Slovenian</option>
+                            <option value="SR">Serbian</option>
+                            <option value="AL">Albanian</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="download-button">
+                <a id="download-link-book1" class="download-link" href="assets/pdfs/salus-analysis-en.pdf" download>
+                    <button class="download-btn">Download PDF</button>
+                </a>
+            </div>
+        </div>
+        <div class="card" data-book="book2">
+            <img class="card-img" src="assets/images/salus-book-2.jpg" alt="Book 2 Cover" />
+            <div class="card-info">
+                <h1 class="card-title">Training Program</h1>
+                <div class="card-stats">
+                    <div class="dropdown-wrapper">
+                        <label for="language-select-book2">Choose Language:</label>
+                        <select id="language-select-book2" class="language-select" data-book="book2">
+                            <option value="EN" selected>English</option>
+                            <option value="MK">Macedonian</option>
+                            <option value="SL">Slovenian</option>
+                            <option value="SR">Serbian</option>
+                            <option value="AL">Albanian</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="download-button">
+                <a id="download-link-book2" class="download-link" href="assets/pdfs/salus-training-program-en.pdf" download>
+                    <button class="download-btn">Download PDF</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="section-padding">
+        <h2>Our Partners</h2>
+
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center text-center">
+                <div class="cell">
+                    <img src="assets/images/partners.jpg" alt="Partners" class="partner-logo">
+                </div>
+<!--                 <div class="cell small-6 medium-3">
+                    <img src="assets/images/partner-2.png" alt="partner-2" class="partner-logo">
+                </div>
+                <div class="cell small-6 medium-3">
+                    <img src="assets/images/partner-3.png" alt="partner-3" class="partner-logo">
+                </div>
+                <div class="cell small-6 medium-3">
+                    <img src="assets/images/partner-4.png" alt="partner-4" class="partner-logo">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fluid-container">
+        <p>&copy; 2024 Salus. All rights reserved.</p>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
