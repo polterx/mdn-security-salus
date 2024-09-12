@@ -9,6 +9,8 @@ Allow: /assets/
 Allow: /css/
 Allow: /js/
 Allow: /index.html
+Allow: /robots.txt
+Allow: /sitemap.xml
 
 # Sitemap location (optional but recommended for SEO)
 Sitemap: https://salus.mk/sitemap.xml
