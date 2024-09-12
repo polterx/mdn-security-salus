@@ -2,49 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Robert Wilson">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Salus</title>
+    <meta name="author" content="Robert Wilson">
+    <meta name="description" content="Women leadership and management empowerment">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="salus">
+    <meta name="theme-color" content="#1a1a1a">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.min.css">
+    <title>Salus</title>
 </head>
 <body>
-    <!-- Desktop & Mobile Navbar -->
-    <nav class="navbar">
-        <div class="navbar-left">
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#timeframes">Timeline of events</a></li>
-            </ul>
-        </div>
-        <div class="navbar-center">
-            <a href="#"><img src="assets/images/logo.png" alt="Logo" class="navbar-logo"></a>
-        </div>
-        <div class="navbar-right">
-            <ul class="nav-links">
-                <li><a href="#results">Results</a></li>
-                <li><a href="#partners">Partners</a></li>
-            </ul>
-        </div>
-        <div class="hamburger-menu">
-            <button id="hamburger-button"><span></span></button>
-        </div>
-    </nav>
+    <header class="fluid-container">
+        <!-- Desktop & Mobile Navbar -->
+        <nav class="navbar">
+            <div class="navbar-left">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#timeframes">Timeline of events</a></li>
+                </ul>
+            </div>
+            <div class="navbar-center">
+                <a href="#"><img src="assets/images/logo.png" alt="Logo" class="navbar-logo"></a>
+            </div>
+            <div class="navbar-right">
+                <ul class="nav-links">
+                    <li><a href="#results">Results</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <button id="hamburger-button"><span></span></button>
+            </div>
+        </nav>
 
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu-overlay" class="mobile-menu-overlay">
-        <ul>
-            <li><a href="#hero" class="mobile-menu-link">Home</a></li>
-            <li><a href="#timeframes" class="mobile-menu-link">Timeline of events</a></li>
-            <li><a href="#results" class="mobile-menu-link">Results</a></li>
-            <li><a href="#partners" class="mobile-menu-link">Partners</a></li>
-        </ul>
-    </div>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu-overlay" class="mobile-menu-overlay">
+            <ul>
+                <li><a href="#hero" class="mobile-menu-link">Home</a></li>
+                <li><a href="#timeframes" class="mobile-menu-link">Timeline of events</a></li>
+                <li><a href="#results" class="mobile-menu-link">Results</a></li>
+                <li><a href="#partners" class="mobile-menu-link">Partners</a></li>
+            </ul>
+        </div>
+    </header>
 
     <!-- Hero Section -->
     <section id="hero" class="section-padding clean-hero-slider">
-      <div class="orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit>
+      <div class="orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit data-auto-play="true" data-infinite-wrap="true" data-timer-delay="4000" data-swipe="true" data-pause-on-hover="true" data-orbit-bullets="true">
         <div class="orbit-wrapper">
           <div class="orbit-controls">
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -85,6 +93,7 @@
         <nav class="orbit-bullets">
           <button class="is-active" data-slide="0"><span class="show-for-sr">First Slide</span></button>
           <button data-slide="1"><span class="show-for-sr">Second Slide</span></button>
+          <button data-slide="2"><span class="show-for-sr">Third Slide</span></button>
         </nav>
       </div>
     </section>
